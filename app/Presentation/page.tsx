@@ -111,7 +111,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-3xl font-bold text-blue-400 mb-4">Further Learning</h2>
             <p className="text-xl font-semibold mb-2">Read the official ShadCN UI and Radix UI documentation:</p>
-            <div className="space-y-2">
+            <div className="space-y-2 grid">
               <Link href="https://ui.shadcn.com/docs" className="text-green-400 hover:text-green-300 transition-colors">
                 ShadCN UI Documentation
               </Link>
